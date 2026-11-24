@@ -1,0 +1,22 @@
+# Never commit credentials, secrets, or complete Codex user state.
+**/auth.json
+**/.env
+**/.env.*
+**/token*.json
+**/secrets*.json
+**/.codex/
+**/sessions/
+**/logs/
+**/Logs/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.log.*
+*.har
+*.pcap
+*.pcapng
+*proxy-backup*.xml
+.DS_Store
+Thumbs.db
